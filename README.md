@@ -2,12 +2,13 @@
 
 ## 必要な環境
 - Node.js がインストールされていること
-- VS Code の拡張機能「Code Runner」をインストールすること
+- VS Code の拡張機能「[Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)」をインストールすること
+- VS Code の拡張機能「[CASL2/COMET2](https://marketplace.visualstudio.com/items?itemName=MaxfieldWalker.vscode-casl2-comet2)」をインストールすること
 
 ## セットアップ手順
 1. このリポジトリをクローンします。
    ```bash
-   git clone <リポジトリURL>
+   git clone https://github.com/p-nasimonan/casl2.git
    cd casl2
     ```
 
@@ -17,9 +18,8 @@
     ```
 
 ## プログラムの実行方法
-1. VS Code で `casl2` フォルダを開きます。
-2. 実行したい CASL2 プログラムファイルを開きます。
-3. ファイルを右クリックし、「Run Code」を選択します。
+1. 実行したい CASL2 プログラムファイル(拡張子が*.cas)を開きます。
+1. ファイルを右クリックし、「Run Code」を選択します。
 
 ## 出力後の操作
 ```
