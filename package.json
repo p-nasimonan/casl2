@@ -1,0 +1,12 @@
+{
+  "name": "casl2-project",
+  "version": "1.0.0",
+  "description": "CASL2 project setup",
+  "scripts": {
+    "start": "node-casl2 ex1.cas && node-comet2 ex1.com"
+  },
+  "dependencies": {
+    "@maxfield/node-casl2": "^1.0.0",
+    "@maxfield/node-comet2": "^1.0.0"
+  }
+}
