@@ -1,0 +1,19 @@
+;GR1-GR2を算術減算によって計算して、値が正でなければ'NOT PLUS'と表示するプログラムを作成しなさい.
+;汎用レジスタの値は、プログラム中で設定する。
+TOI0401   START
+;
+          LD      GR1, =100      ; GR1に100をロード
+          LD      GR2, =200      ; GR2に200をロード
+;
+          SUBA    GR1, GR2       ; GR1 = GR1 - GR2
+          JPL     PLUS           ; 結果が正(SF=0かつZF=0)なら PLUS へジャンプ
+          OUT     MSG, LEN       ; そうでなければ "NOT PLUS" を出力
+          JUMP    FIN
+PLUS      OUT     MSG2, LEN2     ; "PLUS" を出力
+          JUMP    FIN
+FIN       RET
+MSG       DC      'NOT PLUS'     ; "NOT PLUS" メッセージ
+LEN       DC      8              ; メッセージ長
+MSG2      DC      'PLUS'         ; "PLUS" メッセージ
+LEN2      DC      4              ; メッセージ長
+          END
