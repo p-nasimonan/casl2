@@ -8,7 +8,7 @@
 ## セットアップ手順
 1. このリポジトリをクローンします。
    ```bash
-   git clone https://github.com/p-nasimonan/casl2.git
+   git clone https://github.com/p-nasimonan/vscode-code_runner-casl2.git
    cd casl2
     ```
 
