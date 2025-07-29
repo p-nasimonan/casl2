@@ -1,6 +1,0 @@
-HELLO     START                 ; プログラムの開始
-          OUT     BUF, LEN    ; 文字列の出力
-          RET
-BUF       DC      'Hello world' ; 文字列
-LEN       DC      11            ; 文字列の長さ
-          END

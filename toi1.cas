@@ -1,9 +1,0 @@
-FUKUSHU   START
-          LD      GR1, DAT
-          ST      GR1, RST
-          LAD     GR2, 1
-          ST      GR1, RST, GR2
-          RET
-DAT       DC      5
-RST       DC      2
-          END
