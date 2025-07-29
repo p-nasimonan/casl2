@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "casl2": "npx node-casl2 $fileNameWithoutExt.cas && npx node-comet2 $fileNameWithoutExt.com"
+    "casl2": "mkdir -p out && npx node-casl2 -o out/$fileNameWithoutExt.com $fileNameWithoutExt.cas && npx node-comet2 out/$fileNameWithoutExt.com"
   },
   "code-runner.fileDirectoryAsCwd": true,
   "code-runner.clearPreviousOutput": true
